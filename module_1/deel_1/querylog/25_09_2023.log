@@ -1,0 +1,97 @@
+select * from hero; #09:48:45@rubyquest.db
+select * from person; #09:50:40@rubyquest.db
+select * from creature; #09:51:17@rubyquest.db
+select * from hero; #09:51:50@rubyquest.db
+select * from person; #09:52:03@rubyquest.db
+select * from creature; #09:52:18@rubyquest.db
+select * from armor; #09:53:40@rubyquest.db
+select * from weapon; #09:53:58@rubyquest.db
+select * from person where id =7
+; #09:55:46@rubyquest.db
+select * from creature; #09:57:37@rubyquest.db
+select * from creature where gold =0; #09:59:25@rubyquest.db
+select * from city ; #09:59:54@rubyquest.db
+select * from city where region = 1; #10:00:04@rubyquest.db
+select * from animal; #10:00:36@rubyquest.db
+select * from animal ; #10:06:33@rubyquest.db
+select * from animal ; #10:06:50@rubyquest.db
+select * from animal where type == "sheep"; #10:07:45@rubyquest.db
+select * from animal where type = "sheep"; #10:07:50@rubyquest.db
+select * from animal where type = "sheep"; #10:07:51@rubyquest.db
+select * from animal where type = "sheep"; #10:07:51@rubyquest.db
+select * from animal where type = "sheep"; #10:07:52@rubyquest.db
+select * from animal where type = "sheep"; #10:07:52@rubyquest.db
+select * from animal where type = "sheep"; #10:07:53@rubyquest.db
+select * from animal where type = "sheep"; #10:07:53@rubyquest.db
+select * from animal where type = "sheep"; #10:07:54@rubyquest.db
+select * from animal 
+where type = "sheep"; #10:07:57@rubyquest.db
+select * from animal 
+where type = "sheep"; #10:07:57@rubyquest.db
+select * from animal where type = "sheep";; #10:08:16@rubyquest.db
+select * from animal where type = "sheep";; #10:08:17@rubyquest.db
+select * from animal where type = "sheep";; #10:08:17@rubyquest.db
+select * from animal where type = "sheep";; #10:08:18@rubyquest.db
+select * from animal where type = "sheep";; #10:08:28@rubyquest.db
+select * from animal where type = "sheep";; #10:08:29@rubyquest.db
+select * from animal where type = "sheep";; #10:08:29@rubyquest.db
+select * from animal where type = "sheep";; #10:08:29@rubyquest.db
+select * from animal where type = "sheep";; #10:08:30@rubyquest.db
+select * from animal where type = "sheep";; #10:08:30@rubyquest.db
+select * from animal where type = "sheep";; #10:08:30@rubyquest.db
+select * from animal where type = "sheep";; #10:08:30@rubyquest.db
+select * from animal where type = "sheep";; #10:08:31@rubyquest.db
+select * from animal where type = "sheep";; #10:08:32@rubyquest.db
+select * from animal where type == 'sheep'; #10:09:36@rubyquest.db
+select * from animal where type == 'sheep'; #10:09:42@rubyquest.db
+select * from animal where type == "sheep"; #10:10:01@rubyquest.db
+select * from animal where type == "sheep";; #10:10:10@rubyquest.db
+select * from animal where type == "sheep";; #10:10:11@rubyquest.db
+SELECT * FROM animal
+WHERE type='sheep';
+; #10:10:56@rubyquest.db
+SELECT * FROM animal
+WHERE type='sheep';
+; #10:10:57@rubyquest.db
+SELECT * FROM animal
+WHERE type='sheep';
+; #10:10:58@rubyquest.db
+SELECT * FROM animal
+WHERE type='sheep';
+; #10:10:58@rubyquest.db
+SELECT * FROM animal
+WHERE type='sheep';
+; #10:10:59@rubyquest.db
+SELECT * FROM animal
+WHERE type='sheep';
+; #10:10:59@rubyquest.db
+SELECT * FROM animal
+WHERE type='sheep';
+; #10:11:03@rubyquest.db
+SELECT * FROM animal
+WHERE type='sheep';
+; #10:11:04@rubyquest.db
+SELECT * FROM animal
+WHERE type='sheep';
+; #10:11:04@rubyquest.db
+select * from animal; #10:11:13@rubyquest.db
+select * from animal where type == "sheep"; #10:11:28@rubyquest.db
+select * from animal; #10:12:46@rubyquest.db
+select * from animal where type == "sheep"; #10:15:20@rubyquest.db
+select * from animal 
+; #10:15:46@rubyquest.db
+select * from animal where id == 1
+; #10:16:04@rubyquest.db
+select * from animal where id == 1
+; #10:16:17@rubyquest.db
+select * from animal where type == 1
+; #10:16:25@rubyquest.db
+select * from animal where type == "sheep"
+; #10:16:41@rubyquest.db
+select * from person
+; #10:21:02@rubyquest.db
+select * from armor
+; #10:21:45@rubyquest.db
+select name from armor
+; #10:22:29@rubyquest.db
+select price , name from armor; #10:24:00@rubyquest.db

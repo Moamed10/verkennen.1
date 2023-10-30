@@ -1,0 +1,12 @@
+{
+    "query": "SELECT players.name\nFROM players\nJOIN game_sessions ON players.id = game_sessions.player_id\nWHERE game_sessions.boardgame_id = 1; -- Hierbij wordt verondersteld dat \"Catan\" de ID 1 heeft\n",
+    "resultcount": 2,
+    "result": [
+        {
+            "name": "Speler 1"
+        },
+        {
+            "name": "Speler 3"
+        }
+    ]
+}

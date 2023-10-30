@@ -1,0 +1,9 @@
+{
+    "query": "SELECT COUNT(*) FROM boardgames;\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "COUNT(*)": 10
+        }
+    ]
+}

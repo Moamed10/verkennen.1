@@ -1,0 +1,10 @@
+{
+    "query": "select type , speed from \"animal\" order by speed desc limit 1",
+    "resultcount": 1,
+    "result": [
+        {
+            "type": "Tiger",
+            "speed": 10
+        }
+    ]
+}

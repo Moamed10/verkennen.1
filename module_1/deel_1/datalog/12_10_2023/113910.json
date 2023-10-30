@@ -1,0 +1,9 @@
+{
+    "query": "SELECT COUNT(*) AS times_played\nFROM game_sessions\nWHERE boardgame_id = 1; -- Hierbij wordt verondersteld dat \"Catan\" de ID 1 heeft\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "times_played": 2
+        }
+    ]
+}

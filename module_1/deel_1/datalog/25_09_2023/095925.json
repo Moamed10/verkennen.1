@@ -1,0 +1,171 @@
+{
+    "query": "select * from creature where gold =0",
+    "resultcount": 15,
+    "result": [
+        {
+            "id": 96,
+            "name": "Ghost",
+            "attack": 40,
+            "defense": 65,
+            "max_health": 150,
+            "health": 150,
+            "gold": 0,
+            "experience": 40,
+            "spawn": "2"
+        },
+        {
+            "id": 97,
+            "name": "Ghost",
+            "attack": 40,
+            "defense": 65,
+            "max_health": 150,
+            "health": 150,
+            "gold": 0,
+            "experience": 40,
+            "spawn": "2"
+        },
+        {
+            "id": 98,
+            "name": "Ghost",
+            "attack": 40,
+            "defense": 65,
+            "max_health": 150,
+            "health": 33,
+            "gold": 0,
+            "experience": 40,
+            "spawn": "2"
+        },
+        {
+            "id": 99,
+            "name": "Ghost",
+            "attack": 40,
+            "defense": 65,
+            "max_health": 150,
+            "health": 150,
+            "gold": 0,
+            "experience": 40,
+            "spawn": "2"
+        },
+        {
+            "id": 100,
+            "name": "Ghost",
+            "attack": 40,
+            "defense": 65,
+            "max_health": 150,
+            "health": 150,
+            "gold": 0,
+            "experience": 40,
+            "spawn": "2"
+        },
+        {
+            "id": 101,
+            "name": "Ghost",
+            "attack": 40,
+            "defense": 65,
+            "max_health": 150,
+            "health": 150,
+            "gold": 0,
+            "experience": 40,
+            "spawn": "2"
+        },
+        {
+            "id": 102,
+            "name": "Ghost",
+            "attack": 40,
+            "defense": 65,
+            "max_health": 150,
+            "health": 150,
+            "gold": 0,
+            "experience": 40,
+            "spawn": "2"
+        },
+        {
+            "id": 103,
+            "name": "Ghost",
+            "attack": 40,
+            "defense": 65,
+            "max_health": 150,
+            "health": 150,
+            "gold": 0,
+            "experience": 40,
+            "spawn": "2"
+        },
+        {
+            "id": 104,
+            "name": "Ghost",
+            "attack": 40,
+            "defense": 65,
+            "max_health": 150,
+            "health": 150,
+            "gold": 0,
+            "experience": 40,
+            "spawn": "2"
+        },
+        {
+            "id": 105,
+            "name": "Ghost",
+            "attack": 40,
+            "defense": 65,
+            "max_health": 150,
+            "health": 150,
+            "gold": 0,
+            "experience": 40,
+            "spawn": "2"
+        },
+        {
+            "id": 225,
+            "name": "Titan",
+            "attack": 680,
+            "defense": 560,
+            "max_health": 800,
+            "health": 800,
+            "gold": 0,
+            "experience": 250,
+            "spawn": "5"
+        },
+        {
+            "id": 226,
+            "name": "Titan",
+            "attack": 680,
+            "defense": 560,
+            "max_health": 800,
+            "health": 800,
+            "gold": 0,
+            "experience": 250,
+            "spawn": "5"
+        },
+        {
+            "id": 227,
+            "name": "Titan",
+            "attack": 680,
+            "defense": 560,
+            "max_health": 800,
+            "health": 799,
+            "gold": 0,
+            "experience": 250,
+            "spawn": "5"
+        },
+        {
+            "id": 228,
+            "name": "Titan",
+            "attack": 680,
+            "defense": 560,
+            "max_health": 800,
+            "health": 800,
+            "gold": 0,
+            "experience": 250,
+            "spawn": "5"
+        },
+        {
+            "id": 229,
+            "name": "Titan",
+            "attack": 680,
+            "defense": 560,
+            "max_health": 800,
+            "health": 800,
+            "gold": 0,
+            "experience": 250,
+            "spawn": "5"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "query": "SELECT DISTINCT boardgames.name\nFROM boardgames\nJOIN game_sessions ON boardgames.id = game_sessions.boardgame_id;\n",
+    "resultcount": 0,
+    "result": []
+}

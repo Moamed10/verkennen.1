@@ -1,0 +1,19 @@
+{
+    "query": "select * from person where id = 10",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 10,
+            "name": "Super MeatBoy",
+            "sex": "m",
+            "max_health": 250,
+            "attack": 5,
+            "defense": 8,
+            "agility": 2,
+            "experience": 205,
+            "gold": 32,
+            "weapon": 26,
+            "armor": 1
+        }
+    ]
+}

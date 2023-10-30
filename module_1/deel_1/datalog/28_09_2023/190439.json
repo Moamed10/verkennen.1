@@ -1,0 +1,5 @@
+{
+    "query": "select * from animal where type LIKE\" e%a \"",
+    "resultcount": 0,
+    "result": []
+}

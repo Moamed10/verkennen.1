@@ -1,0 +1,5 @@
+{
+    "query": "select * from voetbalspelers\n",
+    "resultcount": 0,
+    "result": []
+}

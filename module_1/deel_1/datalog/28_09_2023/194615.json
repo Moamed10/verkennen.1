@@ -1,0 +1,12 @@
+{
+    "query": "select * from weapon order by price DESC LIMIT 1;",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 40,
+            "name": "Halberd",
+            "price": 2850,
+            "attack": 3500
+        }
+    ]
+}

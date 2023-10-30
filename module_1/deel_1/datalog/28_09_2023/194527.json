@@ -1,0 +1,12 @@
+{
+    "query": "select * from weapon order by (price) LIMIT 1;",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 48,
+            "name": "Shell Chain",
+            "price": 0,
+            "attack": 1000
+        }
+    ]
+}

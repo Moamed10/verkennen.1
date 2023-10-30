@@ -1,0 +1,5 @@
+{
+    "query": "select * from game_sessions\n",
+    "resultcount": 0,
+    "result": []
+}

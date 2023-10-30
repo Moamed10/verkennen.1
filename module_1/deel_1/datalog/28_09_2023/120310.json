@@ -1,0 +1,162 @@
+{
+    "query": "select Price from weapon ",
+    "resultcount": 52,
+    "result": [
+        {
+            "price": 10
+        },
+        {
+            "price": 15
+        },
+        {
+            "price": 28
+        },
+        {
+            "price": 50
+        },
+        {
+            "price": 70
+        },
+        {
+            "price": 110
+        },
+        {
+            "price": 130
+        },
+        {
+            "price": 150
+        },
+        {
+            "price": 300
+        },
+        {
+            "price": 550
+        },
+        {
+            "price": 300
+        },
+        {
+            "price": 320
+        },
+        {
+            "price": 430
+        },
+        {
+            "price": 620
+        },
+        {
+            "price": 735
+        },
+        {
+            "price": 965
+        },
+        {
+            "price": 1000
+        },
+        {
+            "price": 1175
+        },
+        {
+            "price": 1345
+        },
+        {
+            "price": 1600
+        },
+        {
+            "price": 1830
+        },
+        {
+            "price": 2200
+        },
+        {
+            "price": 12
+        },
+        {
+            "price": 200
+        },
+        {
+            "price": 520
+        },
+        {
+            "price": 700
+        },
+        {
+            "price": 1200
+        },
+        {
+            "price": 1730
+        },
+        {
+            "price": 2005
+        },
+        {
+            "price": 100
+        },
+        {
+            "price": 150
+        },
+        {
+            "price": 500
+        },
+        {
+            "price": 575
+        },
+        {
+            "price": 780
+        },
+        {
+            "price": 945
+        },
+        {
+            "price": 1400
+        },
+        {
+            "price": 1700
+        },
+        {
+            "price": 1920
+        },
+        {
+            "price": 2520
+        },
+        {
+            "price": 2850
+        },
+        {
+            "price": 210
+        },
+        {
+            "price": 310
+        },
+        {
+            "price": 1685
+        },
+        {
+            "price": 15
+        },
+        {
+            "price": 525
+        },
+        {
+            "price": 780
+        },
+        {
+            "price": 1300
+        },
+        {
+            "price": 0
+        },
+        {
+            "price": 0
+        },
+        {
+            "price": 0
+        },
+        {
+            "price": 0
+        },
+        {
+            "price": 0
+        }
+    ]
+}

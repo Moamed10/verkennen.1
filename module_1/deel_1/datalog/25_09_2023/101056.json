@@ -1,0 +1,5 @@
+{
+    "query": "SELECT * FROM animal\nWHERE type='sheep';\n",
+    "resultcount": 0,
+    "result": []
+}

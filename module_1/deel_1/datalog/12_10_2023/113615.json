@@ -1,0 +1,56 @@
+{
+    "query": "select * from boardgames\n",
+    "resultcount": 10,
+    "result": [
+        {
+            "id": 1,
+            "name": "Catan",
+            "description": "Een populair strategiespel voor 3-4 spelers."
+        },
+        {
+            "id": 2,
+            "name": "Ticket to Ride",
+            "description": "Een treinavontuursspel voor 2-5 spelers."
+        },
+        {
+            "id": 3,
+            "name": "Scrabble",
+            "description": "Een woordspel waarbij je punten verdient voor woorden."
+        },
+        {
+            "id": 4,
+            "name": "Risk",
+            "description": "Een wereldwijd strategiespel voor 2-6 spelers."
+        },
+        {
+            "id": 5,
+            "name": "Pandemic",
+            "description": "Een co\u00f6peratief bordspel om wereldwijde ziekte-uitbraken te stoppen."
+        },
+        {
+            "id": 6,
+            "name": "Chess",
+            "description": "Een klassiek schaakspel voor twee spelers."
+        },
+        {
+            "id": 7,
+            "name": "Monopoly",
+            "description": "Een vastgoedhandelsbordspel voor 2-8 spelers."
+        },
+        {
+            "id": 8,
+            "name": "Settlers of the Stone Age",
+            "description": "Een prehistorisch bordspel voor 3-4 spelers."
+        },
+        {
+            "id": 9,
+            "name": "Dominion",
+            "description": "Een kaartspel voor 2-4 spelers waarbij je je eigen deck bouwt."
+        },
+        {
+            "id": 10,
+            "name": "Agricola",
+            "description": "Een bordspel over boeren en landbouw voor 1-5 spelers."
+        }
+    ]
+}

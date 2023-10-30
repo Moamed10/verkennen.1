@@ -1,0 +1,14 @@
+{
+    "query": "select * from animal where id = 30",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 30,
+            "type": "Wolf",
+            "speed": 6,
+            "defense": 5,
+            "loyalty": 1,
+            "owner": 10
+        }
+    ]
+}

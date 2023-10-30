@@ -1,0 +1,98 @@
+{
+    "query": "select price , name from armor",
+    "resultcount": 23,
+    "result": [
+        {
+            "price": 10,
+            "name": "Loincloth"
+        },
+        {
+            "price": 15,
+            "name": "Shirt"
+        },
+        {
+            "price": 100,
+            "name": "Skin Armor"
+        },
+        {
+            "price": 320,
+            "name": "Linothorax"
+        },
+        {
+            "price": 515,
+            "name": "Cuirass"
+        },
+        {
+            "price": 875,
+            "name": "Leather Armor"
+        },
+        {
+            "price": 1125,
+            "name": "Chainmail"
+        },
+        {
+            "price": 2100,
+            "name": "Plate Armor"
+        },
+        {
+            "price": 2950,
+            "name": "Bronze Armor"
+        },
+        {
+            "price": 3900,
+            "name": "Steel Armor"
+        },
+        {
+            "price": 5000,
+            "name": "Golden Armor"
+        },
+        {
+            "price": 8325,
+            "name": "Diamond Armor"
+        },
+        {
+            "price": 1250,
+            "name": "Shiny Robe"
+        },
+        {
+            "price": 4000,
+            "name": "Sorceress Skin"
+        },
+        {
+            "price": 8150,
+            "name": "Invincible Cloak"
+        },
+        {
+            "price": 9950,
+            "name": "Dragon Skull Armor"
+        },
+        {
+            "price": 9950,
+            "name": "Dragon Skin"
+        },
+        {
+            "price": 15000,
+            "name": "Tear of God"
+        },
+        {
+            "price": 0,
+            "name": "Giant Shell"
+        },
+        {
+            "price": 0,
+            "name": "Skeleton Armor"
+        },
+        {
+            "price": 0,
+            "name": "Evil Aura"
+        },
+        {
+            "price": 0,
+            "name": "Human Skin Armor"
+        },
+        {
+            "price": 0,
+            "name": "Apocalypse Armor"
+        }
+    ]
+}

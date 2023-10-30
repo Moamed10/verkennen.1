@@ -1,0 +1,94 @@
+CREATE TABLE boardgames (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    description TEXT
+);
+; #11:16:30@99076774.db
+-- Voeg bordspellen toe aan de tabel "boardgames"
+INSERT INTO boardgames (name, description) VALUES
+    ('Catan', 'Een populair strategiespel voor 3-4 spelers.'),
+    ('Ticket to Ride', 'Een treinavontuursspel voor 2-5 spelers.'),
+    ('Scrabble', 'Een woordspel waarbij je punten verdient voor woorden.'),
+    ('Risk', 'Een wereldwijd strategiespel voor 2-6 spelers.'),
+    ('Pandemic', 'Een coöperatief bordspel om wereldwijde ziekte-uitbraken te stoppen.'),
+    ('Chess', 'Een klassiek schaakspel voor twee spelers.'),
+    ('Monopoly', 'Een vastgoedhandelsbordspel voor 2-8 spelers.'),
+    ('Settlers of the Stone Age', 'Een prehistorisch bordspel voor 3-4 spelers.'),
+    ('Dominion', 'Een kaartspel voor 2-4 spelers waarbij je je eigen deck bouwt.'),
+    ('Agricola', 'Een bordspel over boeren en landbouw voor 1-5 spelers.');
+
+; #11:17:15@99076774.db
+select * from boardgames; #11:17:47@99076774.db
+CREATE TABLE voetbalspelers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    naam VARCHAR(255) NOT NULL,
+    description TEXT
+);
+; #11:23:52@mo.db
+select * from voetbalspelers
+; #11:25:40@mo.db
+select * from voetbalspelers
+; #11:25:42@mo.db
+-- Maak de tabel "players"
+CREATE TABLE players (
+    id INTEGER PRIMARY KEY,
+    name TEXT
+);
+; #11:33:00@99076774.db
+-- Maak de tabel "game_sessions"
+CREATE TABLE game_sessions (
+    id INTEGER PRIMARY KEY,
+    boardgame_id INTEGER, -- Buitenlandse sleutel naar de "boardgames" tabel
+    date_played DATE,
+    player_id INTEGER -- Buitenlandse sleutel naar de "players" tabel
+);
+; #11:33:23@99076774.db
+select * from boardgames; #11:33:48@99076774.db
+select * from players; #11:34:01@99076774.db
+select * from players; #11:34:03@99076774.db
+SELECT COUNT(*) FROM boardgames;
+; #11:35:22@99076774.db
+SELECT DISTINCT boardgames.name
+FROM boardgames
+JOIN game_sessions ON boardgames.id = game_sessions.boardgame_id;
+; #11:35:54@99076774.db
+SELECT DISTINCT boardgames.name
+FROM boardgames
+JOIN game_sessions ON boardgames.id = game_sessions.boardgame_id;
+; #11:35:55@99076774.db
+select * from boardgames
+; #11:36:15@99076774.db
+select * from boardgames where id = 2
+; #11:36:26@99076774.db
+select * from game_sessions
+; #11:36:51@99076774.db
+select * from boardgames
+; #11:36:59@99076774.db
+SELECT boardgames.name, COUNT(game_sessions.boardgame_id) AS times_played
+FROM boardgames
+JOIN game_sessions ON boardgames.id = game_sessions.boardgame_id
+GROUP BY boardgames.id
+ORDER BY times_played DESC
+LIMIT 1;
+; #11:37:23@99076774.db
+-- Voeg spelers toe aan de "players" tabel
+INSERT INTO players (name) VALUES
+    ('Speler 1'),
+    ('Speler 2'),
+    ('Speler 3');
+; #11:38:36@99076774.db
+-- Voeg enkele spelsessies toe, koppel deze aan bordspellen en spelers
+INSERT INTO game_sessions (boardgame_id, date_played, player_id) VALUES
+    (1, '2023-10-12', 1),  -- Speler 1 speelt Catan
+    (2, '2023-10-13', 2),  -- Speler 2 speelt Ticket to Ride
+    (1, '2023-10-14', 3);  -- Speler 3 speelt Catan
+; #11:38:40@99076774.db
+SELECT COUNT(*) AS times_played
+FROM game_sessions
+WHERE boardgame_id = 1; -- Hierbij wordt verondersteld dat "Catan" de ID 1 heeft
+; #11:39:10@99076774.db
+SELECT players.name
+FROM players
+JOIN game_sessions ON players.id = game_sessions.player_id
+WHERE game_sessions.boardgame_id = 1; -- Hierbij wordt verondersteld dat "Catan" de ID 1 heeft
+; #11:39:37@99076774.db

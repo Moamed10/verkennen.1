@@ -1,0 +1,5 @@
+{
+    "query": "SELECT boardgames.name, COUNT(game_sessions.boardgame_id) AS times_played\nFROM boardgames\nJOIN game_sessions ON boardgames.id = game_sessions.boardgame_id\nGROUP BY boardgames.id\nORDER BY times_played DESC\nLIMIT 1;\n",
+    "resultcount": 0,
+    "result": []
+}

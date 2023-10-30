@@ -1,0 +1,11 @@
+{
+    "query": "select * from boardgames where id = 2\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 2,
+            "name": "Ticket to Ride",
+            "description": "Een treinavontuursspel voor 2-5 spelers."
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+select * from creature; #11:08:52@rubyquest.db
+select * from creature where name ; #11:10:10@rubyquest.db
+select * from animal; #11:13:29@rubyquest.db
+select * from creature; #11:13:44@rubyquest.db
+select * from creature where name = "Killer Bee"; #11:14:08@rubyquest.db
+select * from creature where name = "Killer Bee" or "Orc"; #11:14:34@rubyquest.db
+select * from creature where name = "Killer Bee" or "Orc"; #11:14:37@rubyquest.db
+select * from creature where name = "Killer Bee" or name = "Orc"; #11:14:42@rubyquest.db
+select * from animal; #11:16:03@rubyquest.db
+select* from animal; #11:17:32@rubyquest.db
+select* from animal where speed = 6; #11:17:41@rubyquest.db
+select* from animal where speed = 6 AND defense = 5; #11:17:52@rubyquest.db
+select * from animal; #11:20:19@rubyquest.db
+select MAX(speed) from animal;; #11:22:02@rubyquest.db
+select MAX(speed) from animal; #11:22:14@rubyquest.db
+select * from animal; #11:24:51@rubyquest.db
+select * from person; #11:28:17@rubyquest.db
+select * from person; #11:30:54@rubyquest.db
+select * from person where agility AND defense AND attack = 10; #11:31:34@rubyquest.db
+select * from creature where name = "Killer Bee" or name = "Orc"; #11:32:44@rubyquest.db
+select* from animal where speed = 6 AND defense = 5; #11:32:59@rubyquest.db
+select * from hero
+; #11:33:57@rubyquest.db
+select * from hero; #11:37:14@rubyquest.db
+select * from hero where intelligence NOT IN (30,90);; #11:37:44@rubyquest.db
+select * from animal; #11:40:29@rubyquest.db
+select * from animal; #11:40:45@rubyquest.db
+select * from animal; #11:41:02@rubyquest.db
+select MAX(speed) from animal; #11:41:24@rubyquest.db
+select*from animal; #11:44:53@rubyquest.db
+select * from animal; #11:47:23@rubyquest.db
+select* from animal; #11:47:35@rubyquest.db
+select* from animal where type = "wolf" or type = "Bear" or type = "Eagle" ; #11:50:12@rubyquest.db
+select* from animal order by speed DESC; #11:52:06@rubyquest.db
+select * from animal; #11:53:01@rubyquest.db
+select * from animal order by speed DESC
+LIMIT 1; #11:53:30@rubyquest.db
+select * from weapon; #11:58:04@rubyquest.db
+select * from animal; #11:59:19@rubyquest.db
+select * from animal ; #12:00:27@rubyquest.db
+select * from weapon; #12:00:35@rubyquest.db
+select * from weapon where Price = 10; #12:00:49@rubyquest.db
+select Price from weapon ; #12:03:10@rubyquest.db
+select * from weapon where price BETWEEN 100 AND 1000; #12:03:32@rubyquest.db
+select * from weapon where attack BETWEEN 300 AND 600; #12:05:49@rubyquest.db
+select * from weapon where attack BETWEEN 300 AND 600; #12:06:06@rubyquest.db
+select * from animal where defense BETWEEN 6 AND 9; #12:06:30@rubyquest.db
+select * from person; #12:07:04@rubyquest.db
+select * from animal; #18:57:04@rubyquest.db
+select * from person ; #18:57:33@rubyquest.db
+select * from person where name LIKE "B%"; #18:58:10@rubyquest.db
+select * from person where name LIKE "%D"; #18:59:26@rubyquest.db
+select * from person where name LIKE "D"; #19:00:56@rubyquest.db
+select * from person where name LIKE "%D"; #19:01:11@rubyquest.db
+select * from person where name LIKE "e%"; #19:02:58@rubyquest.db
+select * from animal; #19:03:26@rubyquest.db
+select * from animal ; #19:03:54@rubyquest.db
+select * from animal where type LIKE"e%a"; #19:04:34@rubyquest.db
+select * from animal where type LIKE" e%a "; #19:04:39@rubyquest.db
+select * from animal ; #19:05:31@rubyquest.db
+select * from animal ; #19:06:47@rubyquest.db
+select * from animal where type LIKE "%a%";; #19:07:11@rubyquest.db
+select * from animal; #19:16:24@rubyquest.db
+select * from creature; #19:17:46@rubyquest.db
+select * from quest; #19:18:22@rubyquest.db
+select * from quest where experience > 3000; #19:18:44@rubyquest.db
+select * from person where gold > 1500; #19:19:06@rubyquest.db
+select * from person where gold > 1800; #19:19:29@rubyquest.db
+select * from person where gold  <1800; #19:19:52@rubyquest.db
+select * from person ; #19:20:56@rubyquest.db
+select gold from person ; #19:21:26@rubyquest.db
+select * from person where gold >= 1850; #19:21:50@rubyquest.db
+select * from weapon; #19:22:18@rubyquest.db
+select * from weapon where price < 350; #19:22:27@rubyquest.db
+select * from animal where type != "sheep"; #19:23:46@rubyquest.db
+select * from animal; #19:25:12@rubyquest.db
+select * from animal; #19:25:39@rubyquest.db
+select * from animal ; #19:25:56@rubyquest.db
+select * from animal where type <> "sheep"; #19:27:35@rubyquest.db
+select * from animal where type  <> "sheep"; #19:28:02@rubyquest.db
+select * from animal where type  <> "Sheep"; #19:28:14@rubyquest.db
+select * from creature; #19:29:14@rubyquest.db
+select * from quest; #19:32:38@rubyquest.db
+select * from quest where experience < gold; #19:33:00@rubyquest.db
+select * from person; #19:40:22@rubyquest.db
+select * from person order by name ASC;; #19:40:44@rubyquest.db
+select * from city order by name DESC;; #19:42:18@rubyquest.db
+select * from city order by name ASC;; #19:42:49@rubyquest.db
+select * from person LIMIT 10;; #19:43:49@rubyquest.db
+select * from weapon LIMIT 10;; #19:43:59@rubyquest.db
+select * from weapon order by (price) LIMIT 10;; #19:44:28@rubyquest.db
+select * from weapon; #19:45:00@rubyquest.db
+select * from weapon order by (price) LIMIT 1;; #19:45:27@rubyquest.db
+select * from weapon order by price DESC LIMIT 1;; #19:46:15@rubyquest.db
+select * from weapon order by price DESC LIMIT 5;; #19:46:20@rubyquest.db
+select * from weapon order by price ASC LIMIT 5;; #19:46:25@rubyquest.db
+select * from weapon order by price ASC LIMIT 5;; #19:46:26@rubyquest.db
+select * from weapon order by price DESC LIMIT 5;; #19:46:33@rubyquest.db
+select * from weapon order by price ASC LIMIT 5;; #19:46:42@rubyquest.db
+select * from weapon order by price DESC LIMIT 5;; #19:46:46@rubyquest.db
+select * from weapon order by attack DESC LIMIT 3;; #19:47:11@rubyquest.db
+SELECT DISTINCT type FROM animal;
+; #19:48:10@rubyquest.db
+select * from npc; #19:48:58@rubyquest.db
+select * from npc; #19:49:44@rubyquest.db
+select DISTINCT profession from npc; #19:50:34@rubyquest.db
