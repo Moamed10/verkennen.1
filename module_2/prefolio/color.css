@@ -1,0 +1,27 @@
+header{
+    background-color: lightblue;
+    color: aliceblue;
+}
+
+nav{
+    text-align: center;
+    color: black;
+}
+
+div{
+    background-color: lightgreen;
+}
+
+ul{
+    list-style: circle;
+    background-color: lightcoral;
+}
+
+pre{
+    font-family: fantasy;
+}
+
+
+article{
+   background-color: aqua;
+}
