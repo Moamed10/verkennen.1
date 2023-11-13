@@ -1,0 +1,44 @@
+/* style.css */
+
+/* Resetten van standaardmarges en -vullingen */
+body, h1, h2, p, div, span {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basisstijl voor de pagina */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Stijl voor box-1 */
+  #box-1 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px solid #333;
+    margin: 20px;
+  }
+  
+  /* Stijl voor box-2 */
+  #box-2 {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border: 1px dashed #777;
+    margin: 20px;
+  }
+  
+  /* Stijl voor box-in-box2 */
+  #box-in-box2 {
+    background-color: rgb(15, 15, 15);
+    padding: 10px;
+    border: 1px solid rgb(202, 32, 32)f2f;
+  }
+  
+  /* Stijl voor span binnen de boxen */
+  span {
+    display: block; /* Zorgt ervoor dat de tekst binnen de span op een nieuwe regel komt */
+    color: #ff0000;
+    font-weight: bold;
+  }
+  

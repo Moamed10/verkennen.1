@@ -1,0 +1,38 @@
+
+#body{
+    background-color: black;
+}
+
+
+#h1{
+    color: greenyellow;
+}
+
+
+#h2{
+    color: orange;
+}
+
+
+.yellow{
+    color: yellow;
+    font-style: italic;
+}
+
+#mo{
+    color: lightblue;
+    font-weight: bold;
+}
+
+#Unieke{
+    color: yellow;
+    background-color: red;
+}
+#footer{
+    color: brown;
+    text-decoration: underline;
+}
+
+.Rode{
+    color: brown;
+}
