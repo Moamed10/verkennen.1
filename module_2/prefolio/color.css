@@ -23,5 +23,12 @@ pre{
 
 
 article{
-   background-color: aqua;
+    background-image: -moz-linear-gradient();
+}
+
+
+
+
+.even{
+    background-color: blueviolet;
 }

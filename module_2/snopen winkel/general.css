@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+h1{
+    color: greenyellow;
+}
+h2{
+    color: orange;
+}
+
+footer p{
+    color: red;
+    text-decoration: underline red;
+}
+header p{
+    color: blue;
+    font-weight: bold;
+    
+}
+section p:nth-child(even) {
+    font-weight: bold;
+    color: blue;
+  }
+
+  section p:nth-child(odd) {
+    font-style: italic;
+    color: yellow;
+  }
+  section p:nth-child(4) {
+    font-style: italic;
+    color: red;
+  }
+  footer p{
+    color: red;
+    text-decoration: underline;
+  }
+
+p{
+    color: blueviolet ;
+}
