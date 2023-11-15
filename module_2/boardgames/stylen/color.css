@@ -1,0 +1,31 @@
+header{
+    background-color: black; color: red;
+}
+
+body{
+    background-color: black;
+}
+
+
+section{
+    color: white
+}
+
+#box-1{
+    border-left: double;
+    border-top: double;
+    border-bottom: dotted;
+    color: blueviolet;
+    border-left-color: red;
+    border-bottom-color: black;
+    border-top-color:green;
+    background-color: red;
+}
+
+#box-1{
+    text-align: center;
+}
+
+#tt{
+    color: antiquewhite;
+}
