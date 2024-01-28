@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+  <title>New Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Profile form</h1>
+  <form id="form_profile">
+    <p>
+      <label>Name: </label>
+      <input type="text" name="input_name" id="input_name">
+    </p>
+    <p>
+      <label>Email: </label>
+      <input type="email" name="input_email" id="input_email">
+    </p>
+    <p>
+      <label>Experince_year: </label>
+      <input type="tel" name="input_Experince_year" id="input_Experince_year" min="0" max="9">
+    </p>
+
+    <p>
+      <label>Address: </label>
+      <input type="text" name="input_address" id="input_address">
+    </p>
+    <p>
+      <label>Zipcode: </label>
+      <input type="text" name="input_zipcode" id="input_zipcode">
+    </p>
+    <p>
+      <label>City: </label>
+      <input type="text" name="input_city" id="input_city">
+    </p>
+
+    <p>
+      <label>Birth: </label>
+      <input type="date" name="input_Birth" id="input_Birth">
+    </p>
+
+    <input type="submit" id="submit_button" value="submit">
+    <input type="reset" id="reset" value="reset">
+  </form>
+  <div id="profile">
+    <h1>Profile</h1>
+    <p><label>Name: </label><span id="display_name"></span></p>
+    <p><label>Email: </label><span id="display_email"></span></p>
+    <p><label>Experince_year:  </label><span id="display_Experince_year"></span></p>
+    <p><label>Address: </label><span id="display_address"></span></p>
+    <p><label>Zipcode: </label><span id="display_zipcode"></span></p>
+    <p><label>City: </label><span id="display_city"></span></p>
+    <p><label>Birth: </label><span id="display_Birth"></span></p>
+  </div>
+
+  <script>
+    function submit(event){
+      display_name.textContent = input_name.value;
+      display_Experince_year.textContent = input_email.value;
+      display_name.textContent = input_Experince_year.value;
+      display_address.textContent = input_address.value;
+      display_zipcode.textContent = input_zipcode.value;
+      display_city.textContent = input_city.value;
+      display_Birth.textContent= input_Birth.value;
+    }
+    submit_button.addEventListener('click',submit);
+
+    // prevent document from default trying to really submit
+    function form_submit(event){
+      event.preventDefault();
+    }
+    form_profile.addEventListener('submit',form_submit)
+
+    function reset(event) {
+      display_name.textContent = "";
+      display_Experince_year.textContent = "";
+      display_address.textContent = "";
+      display_zipcode.textContent = "";
+      display_city.textContent = "";
+      display_Birth.textContent = "";
+
+      // Voeg deze regels toe om de invoervelden leeg te maken
+      input_name.value = "";
+      input_email.value = "";
+      input_Experince_year.value = "";
+      input_address.value = "";
+      input_zipcode.value = "";
+      input_city.value = "";
+      input_Birth.value = "";
+
+      submit_button.addEventListener('click', submit);
+    form_profile.addEventListener('reset', reset);
+    }
+
+
+  </script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
