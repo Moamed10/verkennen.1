@@ -17,7 +17,7 @@
 */
   const EURO_ROEBEL_KOERS = 109; // is koers = aantal roebels voor 1 euro
   function convertRoebels(event){
-    let eurosInput = euro_input.Value; // regel bevat bug
+    let eurosInput = euro_input.value; // regel bevat bug
     let euros = Number(eurosInput); // regel bevat bug
     let roebels = euros * EURO_ROEBEL_KOERS;
     bedrag.textContent = roebels;
